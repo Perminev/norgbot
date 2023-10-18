@@ -45,7 +45,6 @@ async def check(ctx):
             ttt = 'More info on: [norgbot.io](<https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley>)'
             await ctx.send(get_class(model_path="./keras_model.h5", labels_path='labels.txt', image_path=f"./photos/{attachment.filename}"))
             await ctx.send(ttt)
-                           #Сохранили картинку в 
             
     else:
         await ctx.send('Вы забыли загрузить картинку!')
