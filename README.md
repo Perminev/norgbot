@@ -19,3 +19,6 @@ token = "YOUR TOKEN HERE"
 ```
 python main.py
 ```
+_Examples:_
+<br> <br>
+![Example](https://github.com/Perminev/norgbot/blob/main/norgobexamp.png?raw=true)
