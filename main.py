@@ -42,9 +42,9 @@ async def check(ctx):
             file_name = attachment.filename
             file_url = attachment.url
             await attachment.save(f"./photos/{attachment.filename}")
-            ttt = 'More info on: [norgbot.io](<https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley>)'
+            #ttt = 'More info on: [norgbot.io](<https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley>)'
             await ctx.send(get_class(model_path="./keras_model.h5", labels_path='labels.txt', image_path=f"./photos/{attachment.filename}"))
-            await ctx.send(ttt)
+            #await ctx.send(ttt)
             
     else:
         await ctx.send('Вы забыли загрузить картинку!')
